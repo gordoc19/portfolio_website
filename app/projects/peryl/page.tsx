@@ -49,15 +49,15 @@ export default function Home() {
             height={450}
             className="h-full w-full object-cover"
           />
-          </div>
-          <div className="overflow-hidden rounded-xl border border-zinc-700 bg-zinc-950/80 shadow-lg">
-            <Image
-              src="/images/perylHero.png"
-              alt="Peryl hero shot"
-              width={800}
-              height={450}
-              className="h-full w-full object-cover"
-            />
+        </div>
+        <div className="overflow-hidden rounded-xl border border-zinc-700 bg-zinc-950/80 shadow-lg">
+          <Image
+            src="/images/perylHero.png"
+            alt="Peryl hero shot"
+            width={800}
+            height={450}
+            className="h-full w-full object-cover"
+          />
         </div>
       </div>
       <div className="mt-8 grid gap-4 md:grid-cols-2">
