@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "build": {
+    "command": "pnpm build"
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ]
+}
