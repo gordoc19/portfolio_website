@@ -29,6 +29,10 @@ export const Project = defineDocumentType(() => ({
 			type: "string",
 			required: true,
 		},
+		category: {
+			type: "string",
+			required: true,
+		},
 		description: {
 			type: "string",
 			required: true,
@@ -40,6 +44,9 @@ export const Project = defineDocumentType(() => ({
 			type: "string",
 		},
 		repository: {
+			type: "string",
+		},
+		image: {
 			type: "string",
 		},
 	},

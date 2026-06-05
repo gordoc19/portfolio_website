@@ -20,15 +20,15 @@ export const Navigation: React.FC = () => {
 	}, []);
 
 	return (
-		<header ref={ref} className="fixed top-0 z-50 w-full bg-black">
+		<header ref={ref} className="fixed top-0 left-0 right-0 z-50 w-full bg-black">
 			<StarsBackground 
 				starDensity={0.002} 
 				twinkleProbability={0.8} 
 				home={false}
 			/>
-			<div className="relative container flex flex-row-reverse items-center p-6 mx-auto">
+			<div className="relative mx-auto flex w-full max-w-7xl items-center justify-center p-6">
 
-				<div className="flex justify-between gap-8">
+				<div className="flex items-center justify-center gap-8">
 					<Link
 						href="/"
 						className="duration-200 text-zinc-400 hover:text-zinc-100"
