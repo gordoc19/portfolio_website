@@ -59,15 +59,15 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="mt-8 grid gap-4 md:grid-cols-2">
-        <div className="p-8 text-zinc-400 shadow-lg px-40">
-          <h1 className="text-2xl font-bold text-zinc-200 mb-4 text-center">Goals</h1>
+      <div className="mt-8 grid gap-4 md:grid-cols-2 xs:grid-cols-1">
+        <div className="p-8 text-zinc-400 shadow-lg md:px-40 xs:px-10">
+          <h1 className="text-2xl xs:text-lg font-bold text-zinc-200 mb-4 text-center">Goals</h1>
           <p className="text-base leading-7">
             {"\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"}Peryl is a three pound combat robot. The features I designed around were an abnormally large beater bar, four wheel drive, and a six cell high voltage lithium polymer battery. I was able to make a 3.15 inch wide beater bar with a diameter of 3.85 inches and a measured tip speed of 160 mph. Peryl also has a theoretical mas drive speed of 16 mph.
           </p>
         </div>
-        <div className="p-8 text-zinc-400 shadow-lg px-40">
-          <h1 className="text-2xl font-bold text-zinc-200 mb-4 text-center">Timeline</h1>
+        <div className="p-8 text-zinc-400 shadow-lg md:px-40 xs:px-10">
+          <h1 className="text-2xl xs:text-lg font-bold text-zinc-200 mb-4 text-center">Timeline</h1>
           <p className="text-base leading-7">
             {"\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"}My goal was for Peryl to compete in the April 2026 CMRC (Central Massachusetts Robot Combat) competition, and then be prepared to fight the again the weekend after in the May 2026 NHRL (National Havoc Robot League) Open
           </p>
@@ -75,8 +75,8 @@ export default function Home() {
         <div className="overflow-hidden shadow-lg">
           <iframe width={800} height={450} src="https://www.youtube.com/embed/KsMVWsLJgn8?si=8dZiFrHyIoCuJopC" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className="h-full w-full object-cover px-40"></iframe>
         </div>
-        <div className="p-8 text-zinc-400 shadow-lg px-40">
-          <h1 className="text-2xl font-bold text-zinc-200 mb-4 text-center">Debut Fight</h1>
+        <div className="p-8 text-zinc-400 shadow-lg md:px-40 xs:px-10">
+          <h1 className="text-2xl xs:text-lg font-bold text-zinc-200 mb-4 text-center">Debut Fight</h1>
           <p className="text-base leading-7">
             {"\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0"}Peryl made fought it's debut versus "Plumbop" at the April 2026 CMRC competition. I ran Peryl with its fork configuration, and found out that I had sprung the forks too much and designed them poorly, so they kept my front wheels off the ground and severly inhibited mainly my turning, but also my entire drive.
           </p>
