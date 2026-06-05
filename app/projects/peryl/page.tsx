@@ -27,7 +27,7 @@ export default function Home() {
         twinkleProbability={0.8}
         home={true}
       />
-      <div className="mx-auto max-w-7xl px-4 pt-20 pb-12 sm:px-6 sm:pt-24 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 pt-20 pb-12 px-6 md:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
           <div className="flex flex-nowrap justify-center whitespace-nowrap text-3xl md:text-8xl font-bold tracking-tight">
