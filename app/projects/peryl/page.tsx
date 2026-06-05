@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { ShootingStars } from "../../components/shooting-stars";
 import { StarsBackground } from "../../components/stars-background";
 import { Social } from "../../components/social";
